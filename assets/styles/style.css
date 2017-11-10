@@ -16,6 +16,14 @@ body, html {
     max-height: 300px;
 }
 
+.navbar-nav {
+    flex-direction: row;
+}
+
+li:last-child {
+    margin-left: 10px;
+}
+
 .portraitHolder {
     width: 60%;
     margin: auto;
