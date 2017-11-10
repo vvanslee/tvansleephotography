@@ -40,30 +40,28 @@ body {
 }
 
 .contactLink {
+    width: 100%;
+    overflow: hidden;
     margin: auto;
     text-align: center;
 }
 
 .iconHolder {
-    width: 100%;
     margin: auto;
-    display: inline-block;
+    display: inline;
 }
 
 .fbIcon {
-    width: 100%;
     max-width: 60px;
     padding: 10px;
 }
 
 .instaIcon {
-    width: 100%;
     max-width: 60px;
     padding: 10px;
 }
 
 .linkedinIcon {
-    width: 100%;
     max-width: 60px;
     padding: 10px;
 }
@@ -98,4 +96,33 @@ body {
     flex-wrap: wrap;
     margin-right: 0px !important;
     margin-left: 0px !important;
+}
+
+.btn-outline-dark {
+    color: #131518;
+    background-color: transparent;
+    background-image: none;
+    border-color: #131518;
+}
+
+.btn-outline-dark:not([disabled]):not(.disabled).active,
+.btn-outline-dark:not([disabled]):not(.disabled):active,
+.show>.btn-outline-dark.dropdown-toggle,
+.btn-outline-dark:not([disabled]):not(.disabled).active,
+.btn-outline-dark:not([disabled]):not(.disabled):active,
+.show>.btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #797979;
+    border-color: #FCFCFC;
+    box-shadow: none !important;
+}
+
+.btn-outline-dark.focus, .btn-outline-dark:focus {
+    box-shadow: none !important;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #3A3A3A;
+    border-color: #3A3A3A;
 }
